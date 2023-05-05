@@ -2537,6 +2537,7 @@ MonoBehaviour:
   thePlayer: {fileID: 1406461896}
   chartModel: {fileID: 553913011}
   crashThud: {fileID: 372624673}
+  mainCam: {fileID: 963194225}
 --- !u!1 &321067803
 GameObject:
   m_ObjectHideFlags: 0
@@ -7464,6 +7465,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7537,6 +7539,27 @@ Transform:
   m_Father: {fileID: 1406461900}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 15.55, y: 0, z: 0}
+--- !u!95 &963194229
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 81d1efdaf5e264ccb8b934d2aaabe052, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &970866110
 PrefabInstance:
   m_ObjectHideFlags: 0
