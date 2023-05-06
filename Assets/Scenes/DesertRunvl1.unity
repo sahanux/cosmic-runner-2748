@@ -11140,6 +11140,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   leftRightSpeed: 4
+  canMove: 0
+  isJumping: 0
+  playerObject: {fileID: 553913011}
 --- !u!143 &1406461902
 CharacterController:
   m_ObjectHideFlags: 0
@@ -11882,6 +11885,7 @@ MonoBehaviour:
   fadeIn: {fileID: 1691894097}
   readyFX: {fileID: 871875031}
   goFX: {fileID: 1379783559}
+  playerObject: {fileID: 0}
 --- !u!114 &1471970959
 MonoBehaviour:
   m_ObjectHideFlags: 0
