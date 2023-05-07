@@ -46,11 +46,11 @@ public class PlayerMove : MonoBehaviour
         {
             if(comingDown == false)
             {
-                transform.Translate(Vector3.up * Time.deltaTime * 3, Space.World);
+                transform.Translate(Vector3.up * Time.deltaTime * 5, Space.World);
             }
              if(comingDown == true)
             {
-                transform.Translate(Vector3.up * Time.deltaTime * -3, Space.World);
+                transform.Translate(Vector3.up * Time.deltaTime * -5, Space.World);
             }
         }
     }
